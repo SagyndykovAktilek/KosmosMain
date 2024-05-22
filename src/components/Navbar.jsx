@@ -15,6 +15,10 @@ function Navbar() {
           <div className="btn-block">
             <button>
               <img src={Us} alt="usaimage" />
+
+
+
+							
               <p>US</p>
             </button>
             <button>

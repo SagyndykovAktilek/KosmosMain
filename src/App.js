@@ -1,12 +1,18 @@
-import React from 'react'
-import Navbar from './components/Navbar'
+import React from "react";
+import Navbar from "./components/Navbar";
+import Home from "./components/Home/Home";
+import Footer from "./components/Footer/Footer";
 
 function App() {
-	return (
-		<div>
-			<Navbar />
-		</div>
-	)
+  return (
+    <div>
+      <div className="main">
+        <Navbar />
+        <Home />
+				<Footer />
+      </div>
+    </div>
+  );
 }
 
-export default App
+export default App;
